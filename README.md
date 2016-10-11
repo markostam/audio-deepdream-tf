@@ -4,7 +4,10 @@ This notebook uses the [tensorflow primer on DeepDreaming](https://github.com/te
 
 In essence, this hack converts audio spectrograms into images, where they can be processed by specific layers of a pre-trained convulutional neural network ([Inception v3](https://arxiv.org/abs/1512.00567) trained on [ImageNet](https://arxiv.org/abs/1512.00567)) , and then re-synthesized into audio. 
 
-*In simpler terms, it allows a a convnet to hallucinate audio effects based on its learned weights.*
+### *In simpler terms, it allows a a convnet to hallucinate audio effects based on its learned weights.*
 
-This notebook uses Anaconda 3, Python 3.5 and is powered by [TensorFlow](https://github.com/tensorflow) for deep learning and [Librosa](https://github.com/librosa) for audio DSP.
-
+## Dependencies:
+[Python 3.5](https://www.continuum.io/downloads)
+[TensorFlow](https://github.com/tensorflow) for deep learning.
+[Librosa](https://github.com/librosa) for audio DSP.
+[numpy](http://www.numpy.org)
