@@ -17,4 +17,4 @@ Python 3.5
 
 ### 
 
-![](https://github.com/markostam/audio-deepdream-tf/blob/master/images/Unknown-32.jpg?raw=true "")
+![](https://github.com/markostam/audio-deepdream-tf/blob/master/images/thugger_dd.jpg?raw=true "")
