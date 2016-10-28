@@ -141,7 +141,7 @@ def deepdream_func(layer,channel,path_to_audio,iterations,octaves):
 
 
 	# undo processing to bring the image back from 0-255 to original scale
-	deepdream_out = np.flipud(dream_spec)
+	deepdream_out = np.flipud(dream_spec_img)
 	deepdream_out = (1 - deepdream_out) * y_stft_mag.max()
 	deepdream_out = np.power(deepdream_out, 1/nonlin)
 	# flatten the three channels and normalize over number of channels
