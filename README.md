@@ -2,7 +2,7 @@
 
 <a href='https://www.recurse.com' title='Made with love at the Recurse Center'><img src='https://cloud.githubusercontent.com/assets/2883345/11325206/336ea5f4-9150-11e5-9e90-d86ad31993d8.png' height='20px'/></a>
 
-#### This notebook allows a imagenet to hallucinate audio effects on a mp3.
+#### This notebook allows imagenet to hallucinate audio effects on a mp3.
 
 It uses the [tensorflow primer on DeepDreaming](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/tutorials/deepdream/deepdream.ipynb) to adapt [Christian Dittmar & Stefan Balke's DeepDreamEffect for Caffe](http://labrosa.ee.columbia.edu/hamr_ismir2015/proceedings/doku.php?id=deepdreameffect) from [HAMR 2015](http://labrosa.ee.columbia.edu/hamr_ismir2015/) to tensorflow. In addition, the loss function for inducing hallucinations in the convnet is edited such that high energy areas of the spectrogram are ignored, thereby avoiding distortion upon resynthesis and adding musicality to the effect.
 
