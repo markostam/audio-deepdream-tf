@@ -12,7 +12,7 @@ In essence, this hack converts audio spectrograms into images, where they can be
 ## Dependencies:
 Python 3.5.x
 
-[TensorFlow 0.11](https://github.com/tensorflow) for deep learning.
+[TensorFlow 0.11](https://github.com/tensorflow).
 
 [Librosa 0.4.3](https://github.com/librosa) for audio DSP.
 
